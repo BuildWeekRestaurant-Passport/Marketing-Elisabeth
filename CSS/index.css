@@ -135,35 +135,46 @@ table {
   border: 1px solid red;
 }
 .nav-content {
-  border: #0A3055;
+  border: 1px solid red;
 }
 .navigation-bar {
   display: flex;
-  background-color: #0A3055;
+  background-color: white;
   border: 1px solid red;
 }
 .nav-logo {
   border: 1px solid red;
 }
 .logo {
+  color: #406098;
+  font-family: 'IM Fell English', serif;
+  font-size: 4vw;
+  font-style: italic;
   border: 1px solid red;
 }
-.logo-subtext {
-  border: 1px solid red;
+span {
+  font-size: 6vw;
+  font-weight: bold;
 }
 .nav-menu {
   position: absolute;
   top: 8px;
   right: 16px;
 }
+.navMenu {
+  color: #0A3055;
+}
 .signUp-area {
   position: relative;
   text-align: center;
   color: white;
+  background-color: #0A3055;
   border: 1px solid red;
 }
 .bg-image {
   width: 100%;
+  height: auto;
+  margin-bottom: 10em;
   opacity: 70%;
   border: 1px solid red;
 }
@@ -176,12 +187,12 @@ table {
 }
 .restaurant-imgs {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
-  width: 60%;
-  padding: 5%;
+  width: 75%;
+  padding: 20px;
   transform: translate(-50%, -50%);
-  background: white;
+  background-color: white;
   border: 1px solid red;
 }
 .top-row {
@@ -189,14 +200,31 @@ table {
 }
 .rest-content {
   width: 100%;
+  text-align: center;
   border: 1px solid red;
 }
 .rest-imgs {
-  width: 100%;
+  width: 90%;
+  border-radius: 10px;
+  margin: 5px;
   border: 1px solid red;
+}
+.middle-row {
+  display: flex;
+}
+.new-phrase {
+  border-top: 1.5px solid black;
+  padding: 20px;
+}
+.new {
+  margin-top: 10px;
 }
 .bottom-row {
   display: flex;
+}
+.row-img {
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 .container {
   position: relative;
@@ -205,15 +233,19 @@ table {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-color: #0A3055;
   border: 1px solid red;
 }
 .footer-top {
   display: flex;
+  color: white;
   background-color: #0A3055;
   border: 1px solid red;
 }
 .footer-logo {
+  color: white;
+  font-family: 'IM Fell English', serif;
+  font-size: 4vw;
+  font-style: italic;
   border: 1px solid red;
 }
 .footer-menu {
@@ -221,8 +253,12 @@ table {
   flex-direction: column;
   border: 1px solid red;
 }
+.footMenu {
+  color: white;
+}
 .footer-bottom {
   display: flex;
+  color: white;
   background-color: #0A3055;
   border: 1px solid red;
 }

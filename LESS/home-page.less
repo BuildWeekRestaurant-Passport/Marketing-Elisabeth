@@ -2,10 +2,13 @@
     position: relative;
     text-align: center;
     color: white;
+    background-color: @navy;
     border: @red;
 }
     .bg-image {
         width: 100%;
+        height: auto;
+        margin-bottom: 10em;
         opacity: 70%;
         border: @red;
     }
@@ -20,12 +23,12 @@
 
 .restaurant-imgs {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    width: 60%;
-    padding: 5%;
+    width: 75%;
+    padding: 20px;
     transform: translate(-50%, -50%);
-    background: white;
+    background-color: white;
     border: @red;
 }
 
@@ -35,14 +38,35 @@
 
         .rest-content {
             width: 100%;
+            text-align: center;
             border: @red;
         }
             .rest-imgs {
-                width: 100%;
+                width: 90%;
+                border-radius: 10px;
+                margin: 5px;
                 border: @red;
             }
 
+    .middle-row {
+        display: flex;
+    }
+
+    .new-phrase {
+        border-top: 1.5px solid black;
+        padding: 20px;
+    }
+
+        .new {
+            margin-top: 10px;
+        }
+
     .bottom-row {
         display: flex;
+    }
+
+    .row-img {
+        margin-top: 30px;
+        margin-bottom: 70px;
     }
 
