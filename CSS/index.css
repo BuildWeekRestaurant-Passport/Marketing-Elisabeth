@@ -131,12 +131,15 @@ table {
   padding: 0;
 }
 .container {
-  width: 100%;
   margin: 0 auto;
   border: 1px solid red;
 }
-.navigation {
-  width: 100%;
+.nav-content {
+  border: #0A3055;
+}
+.navigation-bar {
+  display: flex;
+  background-color: #0A3055;
   border: 1px solid red;
 }
 .nav-logo {
@@ -148,48 +151,85 @@ table {
 .logo-subtext {
   border: 1px solid red;
 }
+.nav-menu {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
 .signUp-area {
-  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
   border: 1px solid red;
 }
 .bg-image {
   width: 100%;
-  opacity: 50%;
+  opacity: 70%;
   border: 1px solid red;
 }
 .phrase-button {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 1px solid red;
 }
 .restaurant-imgs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  padding: 5%;
+  transform: translate(-50%, -50%);
+  background: white;
   border: 1px solid red;
 }
+.top-row {
+  display: flex;
+}
 .rest-content {
-  width: 20%;
+  width: 100%;
   border: 1px solid red;
 }
 .rest-imgs {
   width: 100%;
   border: 1px solid red;
 }
+.bottom-row {
+  display: flex;
+}
+.container {
+  position: relative;
+}
 .footer {
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #0A3055;
   border: 1px solid red;
 }
 .footer-top {
+  display: flex;
+  background-color: #0A3055;
   border: 1px solid red;
 }
 .footer-logo {
   border: 1px solid red;
 }
 .footer-menu {
+  display: flex;
+  flex-direction: column;
   border: 1px solid red;
 }
 .footer-bottom {
+  display: flex;
+  background-color: #0A3055;
   border: 1px solid red;
 }
 .copyright {
   border: 1px solid red;
 }
 .icons {
+  display: flex;
   border: 1px solid red;
 }
