@@ -31,6 +31,14 @@
                     font-size: 3vw;
                     font-style: italic;
                     padding-left: 20px;
+
+                    @media (max-width: 1000px ) {
+                        font-size: 30px;
+                    }
+
+                    @media (max-width: 500px ) {
+                        font-size: 28px;
+                    }
                 }
 
                     span {
@@ -47,7 +55,7 @@
         .nav-menu {
             font-family: 'IM Fell English', serif;
             position: absolute;              
-            width: 30%;
+            width: 40%;
             top: 8px;
             right: 16px;
             padding-top: 3.5%;
@@ -58,10 +66,14 @@
             .navMenu {
                 font-size: 24px;
                 text-align: center;
-                margin-right: 10%;
+                margin-right: 5%;
                 //padding: 0 2%;
                 //font-weight: bold;
-                color: @blue;
+                color: @blue; 
+
+                @media (max-width: 500px) {
+                    font-size: 20px;
+                }
             }
 
                 .navMenu:hover {
@@ -71,4 +83,11 @@
                     -moz-border-radius: 5px;
                     border-radius: 5px;
                 }
-    
+
+                .link {
+
+                    @media (max-width: 1000px) {
+                        display: none;                
+                    }  
+                }
+                

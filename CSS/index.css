@@ -158,6 +158,16 @@ a {
   font-style: italic;
   padding-left: 20px;
 }
+@media (max-width: 1000px) {
+  .logo {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    font-size: 28px;
+  }
+}
 span {
   font-size: 6vw;
   font-weight: bold;
@@ -165,7 +175,7 @@ span {
 .nav-menu {
   font-family: 'IM Fell English', serif;
   position: absolute;
-  width: 30%;
+  width: 40%;
   top: 8px;
   right: 16px;
   padding-top: 3.5%;
@@ -175,8 +185,13 @@ span {
 .navMenu {
   font-size: 24px;
   text-align: center;
-  margin-right: 10%;
+  margin-right: 5%;
   color: #406098;
+}
+@media (max-width: 500px) {
+  .navMenu {
+    font-size: 20px;
+  }
 }
 .navMenu:hover {
   color: white;
@@ -185,14 +200,34 @@ span {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+@media (max-width: 1000px) {
+  .link {
+    display: none;
+  }
+}
 .signUp-area {
   position: relative;
   text-align: center;
   color: white;
   background-color: #e5e7ec;
-  padding-bottom: 65%;
+  padding-bottom: 70%;
   border: 1px solid #a6a7a7;
   border-radius: 40px;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .signUp-area {
+    padding-bottom: 80%;
+  }
+}
+@media (min-width: 800px) and (max-width: 999px) {
+  .signUp-area {
+    padding-bottom: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .signUp-area {
+    padding-bottom: 20%;
+  }
 }
 .bg-image {
   width: 100%;
@@ -214,6 +249,23 @@ span {
   border: 1px solid #10103f;
   border-radius: 20px;
 }
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .phrase-button {
+    top: 12.5%;
+  }
+}
+@media (min-width: 800px) and (max-width: 999px) {
+  .phrase-button {
+    top: 16%;
+  }
+}
+@media (max-width: 500px) {
+  .phrase-button {
+    top: 76%;
+    width: 95%;
+    border: none;
+  }
+}
 .phrase-button:hover {
   background-color: white;
 }
@@ -224,6 +276,11 @@ span {
 .bottom-phrase {
   font-size: 30px;
   font-weight: 550;
+}
+@media (max-width: 500px) {
+  .bottom-phrase {
+    font-size: 24px;
+  }
 }
 .button {
   font-size: 20px;
@@ -243,13 +300,28 @@ span {
 }
 .restaurant-imgs {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   width: 90%;
-  padding: 20px;
+  padding: 50px 30px;
   transform: translate(-50%, -50%);
   background-color: white;
-  border-radius: 2%;
+  border-radius: 10%;
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .restaurant-imgs {
+    top: 60%;
+  }
+}
+@media (min-width: 800px) and (max-width: 999px) {
+  .restaurant-imgs {
+    top: 59%;
+  }
+}
+@media (max-width: 500px) {
+  .restaurant-imgs {
+    display: none;
+  }
 }
 .top-row {
   display: flex;
@@ -261,8 +333,18 @@ span {
 }
 .rest-imgs {
   width: 90%;
+  height: 80%;
+  background-color: #cca066;
+  opacity: 90%;
   border-radius: 90%;
   margin: 5px;
+}
+.rest-imgs:hover {
+  color: #cca066;
+}
+.img-text {
+  font-family: 'IM Fell English', serif;
+  color: #0A3055;
 }
 .middle-row {
   display: flex;
@@ -301,6 +383,12 @@ span {
   border-top-right-radius: 30px;
   padding: 1% 20%;
 }
+@media (max-width: 500px) {
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .footer-logo {
   color: white;
   font-family: 'IM Fell English', serif;
@@ -308,10 +396,20 @@ span {
   font-style: italic;
   line-height: 2;
 }
+@media (max-width: 500px) {
+  .footer-logo {
+    font-size: 40px;
+  }
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
   line-height: 2;
+}
+@media (max-width: 500px) {
+  .footer-menu {
+    padding: 3%;
+  }
 }
 .footMenu {
   color: white;
@@ -322,15 +420,31 @@ span {
   color: white;
   background-color: #0A3055;
 }
+@media (max-width: 500px) {
+  .footer-bottom {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
 .copyright {
   margin: 0 5%;
   padding-top: 3%;
+}
+@media (max-width: 500px) {
+  .copyright {
+    padding: 3%;
+  }
 }
 .icons {
   display: flex;
   justify-content: space-between;
   padding: 2%;
-  padding-left: 2%;
+  padding-left: 3%;
+}
+@media (max-width: 500px) {
+  .icons {
+    justify-content: space-around;
+  }
 }
 .fa {
   padding: 10px;

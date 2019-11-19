@@ -16,6 +16,11 @@
             border-top-left-radius: 30px;
             border-top-right-radius: 30px;
             padding: 1% 20%;
+
+            @media (max-width: 500px) {
+                flex-direction: column;
+                text-align: center;
+            }
         }
 
             .footer-logo {
@@ -24,12 +29,20 @@
                 font-size: 5vw;
                 font-style: italic;
                 line-height: 2;
+
+                @media (max-width: 500px) {
+                    font-size: 40px;
+                }
             }
 
             .footer-menu {
                 display: flex;
                 flex-direction: column;
                 line-height: 2;
+
+                @media (max-width: 500px) {
+                    padding: 3%;
+                }
             }
 
                 .footMenu {
@@ -41,18 +54,31 @@
             justify-content: space-around;
             color: white;
             background-color: @navy;
+
+            @media (max-width: 500px) {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
         }
 
             .copyright {
                 margin: 0 5%;
                 padding-top: 3%;
+
+                @media (max-width: 500px) {
+                    padding: 3%;
+                }
             }
             
             .icons {
                 display: flex;
                 justify-content: space-between;
                 padding: 2%;
-                padding-left: 2%;
+                padding-left: 3%;
+
+                @media (max-width: 500px) {
+                    justify-content: space-around;
+                }
             }
 
                 .fa {

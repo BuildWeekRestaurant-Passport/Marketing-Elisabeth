@@ -3,9 +3,21 @@
     text-align: center;
     color: white;
     background-color: rgb(229, 231, 236);
-    padding-bottom: 65%;
+    padding-bottom: 70%;
     border: 1px solid rgb(166, 167, 167);
     border-radius: 40px;
+
+    @media (min-width: 1000px) and (max-width: 1500px) {
+        padding-bottom: 80%;
+    }
+
+    @media (min-width: 800px) and (max-width: 999px) {
+        padding-bottom: 95%;
+    }
+
+    @media (max-width: 500px) {
+        padding-bottom: 20%;
+    }
 }
     .bg-image {
         width: 100%;
@@ -30,6 +42,20 @@
         padding: 2%;
         border: 1px solid rgb(16, 16, 63);
         border-radius: 20px;
+
+        @media (min-width: 1000px) and (max-width: 1500px) {
+            top: 12.5%;
+        }
+
+        @media (min-width: 800px) and (max-width: 999px) {
+            top: 16%;
+        }
+
+        @media (max-width: 500px) {
+            top: 76%;
+            width: 95%;
+            border: none;
+        }
     }
 
         .phrase-button:hover {
@@ -44,6 +70,10 @@
         .bottom-phrase {
             font-size: 30px;
             font-weight: 550;
+
+            @media (max-width: 500px) {
+                font-size: 24px;
+            }
         }
 
         .button {
@@ -68,13 +98,25 @@
 
 .restaurant-imgs {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     width: 90%;
-    padding: 20px;
+    padding: 50px 30px;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 2%;
+    border-radius: 10%;
+
+    @media (min-width: 1000px) and (max-width: 1500px) {
+        top: 60%;
+    }
+
+    @media (min-width: 800px) and (max-width: 999px) {
+        top: 59%;
+    }
+
+    @media (max-width: 500px) {
+        display: none;
+    }
 }
 
     .top-row {
@@ -88,8 +130,20 @@
         }
             .rest-imgs {
                 width: 90%;
+                height: 80%;
+                background-color: rgb(204, 160, 102);
+                opacity: 90%;
                 border-radius: 90%;
                 margin: 5px;
+            }
+
+                .rest-imgs:hover {
+                    color: rgb(204, 160, 102);
+                }
+
+            .img-text {
+                font-family: 'IM Fell English', serif;
+                color: @navy;
             }
 
     .middle-row {
@@ -112,8 +166,10 @@
         display: flex;
     }
 
-    .row-img {
-        margin-top: 30px;
-        margin-bottom: 70px;
-    }
+        .row-img {
+            margin-top: 30px;
+            margin-bottom: 70px;
+        }
+
+        
 
