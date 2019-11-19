@@ -2,33 +2,80 @@
     position: relative;
     text-align: center;
     color: white;
-    background-color: @navy;
+    background-color: rgb(229, 231, 236);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: @red;
 }
     .bg-image {
         width: 100%;
         height: auto;
         margin-bottom: 10em;
-        opacity: 70%;
+        //opacity: 80%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
         border: @red;
     }
 
     .phrase-button {
         position: absolute;
-        top: 10%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border: @red;
+        //font-size: 2.5vw;
+        color: @navy;
+        background-color: rgba(221, 223, 224, 0.7);
+        //opacity: 80%;
+        line-height: 2;
+        margin: 5% 0;
+        padding: 2%;
+        border: 1px solid rgb(16, 16, 63);
+        border-radius: 20px;
     }
+
+        .phrase-button:hover {
+            background-color: white;
+        }
+
+        .top-phrase {
+            font-size: 24px;
+            font-weight: 550;
+        }
+
+        .bottom-phrase {
+            font-size: 30px;
+            font-weight: 550;
+        }
+
+        .button {
+            font-size: 20px;
+            background-color: transparent;
+            width: 200px;
+            height: 50px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 1px solid rgb(23, 35, 75);
+        }
+
+            .button:hover {
+                background-color: red;
+                //opacity: 80%;
+            }
+
+            #button-txt {
+                font-weight: bold;
+                color: rgb(51, 50, 50);
+            }
 
 .restaurant-imgs {
     position: absolute;
-    top: 55%;
+    top: 100%;
     left: 50%;
-    width: 75%;
+    width: 85%;
     padding: 20px;
     transform: translate(-50%, -50%);
     background-color: white;
+    border-radius: 2%;
     border: @red;
 }
 
@@ -38,12 +85,13 @@
 
         .rest-content {
             width: 100%;
+            font-size: 2.25vw;
             text-align: center;
             border: @red;
         }
             .rest-imgs {
                 width: 90%;
-                border-radius: 10px;
+                border-radius: 90%;
                 margin: 5px;
                 border: @red;
             }
@@ -53,6 +101,9 @@
     }
 
     .new-phrase {
+        font-family: 'IM Fell English', serif;
+        font-size: 3.5vw;
+        color: @blue;
         border-top: 1.5px solid black;
         padding: 20px;
     }

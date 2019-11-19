@@ -130,16 +130,24 @@ table {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 .container {
   margin: 0 auto;
+  background-color: #e5e7ec;
   border: 1px solid red;
 }
 .nav-content {
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   border: 1px solid red;
 }
 .navigation-bar {
   display: flex;
   background-color: white;
+  margin: 10px 2%;
   border: 1px solid red;
 }
 .nav-logo {
@@ -150,6 +158,7 @@ table {
   font-family: 'IM Fell English', serif;
   font-size: 4vw;
   font-style: italic;
+  padding-left: 5px;
   border: 1px solid red;
 }
 span {
@@ -157,42 +166,97 @@ span {
   font-weight: bold;
 }
 .nav-menu {
+  font-family: 'IM Fell English', serif;
   position: absolute;
+  width: 27%;
   top: 8px;
   right: 16px;
+  padding-top: 3.5%;
+  padding-bottom: 1%;
+  text-align: right;
+  border: 1px solid red;
 }
 .navMenu {
-  color: #0A3055;
+  font-size: 24px;
+  text-align: center;
+  margin-right: 20%;
+  padding: 0 2%;
+  color: #406098;
+  border: 1px solid red;
+}
+.navMenu:hover {
+  color: white;
+  background-color: #0A3055;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .signUp-area {
   position: relative;
   text-align: center;
   color: white;
-  background-color: #0A3055;
+  background-color: #e5e7ec;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   border: 1px solid red;
 }
 .bg-image {
   width: 100%;
   height: auto;
   margin-bottom: 10em;
-  opacity: 70%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   border: 1px solid red;
 }
 .phrase-button {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid red;
+  color: #0A3055;
+  background-color: rgba(221, 223, 224, 0.7);
+  line-height: 2;
+  margin: 5% 0;
+  padding: 2%;
+  border: 1px solid #10103f;
+  border-radius: 20px;
+}
+.phrase-button:hover {
+  background-color: white;
+}
+.top-phrase {
+  font-size: 24px;
+  font-weight: 550;
+}
+.bottom-phrase {
+  font-size: 30px;
+  font-weight: 550;
+}
+.button {
+  font-size: 20px;
+  background-color: transparent;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #17234b;
+}
+.button:hover {
+  background-color: red;
+}
+#button-txt {
+  font-weight: bold;
+  color: #333232;
 }
 .restaurant-imgs {
   position: absolute;
-  top: 55%;
+  top: 100%;
   left: 50%;
-  width: 75%;
+  width: 85%;
   padding: 20px;
   transform: translate(-50%, -50%);
   background-color: white;
+  border-radius: 2%;
   border: 1px solid red;
 }
 .top-row {
@@ -200,12 +264,13 @@ span {
 }
 .rest-content {
   width: 100%;
+  font-size: 2.25vw;
   text-align: center;
   border: 1px solid red;
 }
 .rest-imgs {
   width: 90%;
-  border-radius: 10px;
+  border-radius: 90%;
   margin: 5px;
   border: 1px solid red;
 }
@@ -213,6 +278,9 @@ span {
   display: flex;
 }
 .new-phrase {
+  font-family: 'IM Fell English', serif;
+  font-size: 3.5vw;
+  color: #406098;
   border-top: 1.5px solid black;
   padding: 20px;
 }

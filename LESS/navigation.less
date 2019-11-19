@@ -1,5 +1,6 @@
 .container {
     margin: 0 auto;
+    background-color: rgb(229, 231, 236);
     border:  @red;
 }
 
@@ -9,12 +10,16 @@
     //     color: @navy;
     // }
     .nav-content {
+        background-color: white;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
         border: @red;
     }
 
         .navigation-bar {
             display: flex;
             background-color: white;
+            margin: 10px 2%;
             border: @red;
         }
 
@@ -27,6 +32,7 @@
                     font-family: 'IM Fell English', serif;
                     font-size: 4vw;
                     font-style: italic;
+                    padding-left: 5px;
                     border: @red;
                 }
 
@@ -42,13 +48,32 @@
                 // }
 
         .nav-menu {
-            position: absolute;
+            font-family: 'IM Fell English', serif;
+            position: absolute;              
+            width: 27%;
             top: 8px;
             right: 16px;
+            padding-top: 3.5%;
+            padding-bottom: 1%;
+            text-align: right;
+            border: @red;
         }
 
             .navMenu {
-                color: @navy;
+                font-size: 24px;
+                text-align: center;
+                margin-right: 20%;
+                padding: 0 2%;
+                //font-weight: bold;
+                color: @blue;
+                border: @red;
             }
 
+                .navMenu:hover {
+                    color: white;
+                    background-color: @navy;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                }
     
