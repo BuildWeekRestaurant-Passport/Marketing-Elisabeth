@@ -135,31 +135,28 @@ a {
 }
 .container {
   margin: 0 auto;
-  background-color: #e5e7ec;
-  border: 1px solid red;
+  background-color: white;
 }
 .nav-content {
   background-color: white;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border: 1px solid red;
+  border: 1px solid #d5d7db;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 .navigation-bar {
   display: flex;
   background-color: white;
   margin: 10px 2%;
-  border: 1px solid red;
 }
 .nav-logo {
-  border: 1px solid red;
+  border: 1px solid white;
 }
 .logo {
   color: #406098;
   font-family: 'IM Fell English', serif;
-  font-size: 4vw;
+  font-size: 3vw;
   font-style: italic;
-  padding-left: 5px;
-  border: 1px solid red;
+  padding-left: 20px;
 }
 span {
   font-size: 6vw;
@@ -168,25 +165,22 @@ span {
 .nav-menu {
   font-family: 'IM Fell English', serif;
   position: absolute;
-  width: 27%;
+  width: 30%;
   top: 8px;
   right: 16px;
   padding-top: 3.5%;
   padding-bottom: 1%;
   text-align: right;
-  border: 1px solid red;
 }
 .navMenu {
   font-size: 24px;
   text-align: center;
-  margin-right: 20%;
-  padding: 0 2%;
+  margin-right: 10%;
   color: #406098;
-  border: 1px solid red;
 }
 .navMenu:hover {
   color: white;
-  background-color: #0A3055;
+  background-color: #406098;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -196,9 +190,9 @@ span {
   text-align: center;
   color: white;
   background-color: #e5e7ec;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border: 1px solid red;
+  padding-bottom: 65%;
+  border: 1px solid #a6a7a7;
+  border-radius: 40px;
 }
 .bg-image {
   width: 100%;
@@ -206,11 +200,10 @@ span {
   margin-bottom: 10em;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  border: 1px solid red;
 }
 .phrase-button {
   position: absolute;
-  top: 20%;
+  top: 11%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #0A3055;
@@ -250,14 +243,13 @@ span {
 }
 .restaurant-imgs {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 50%;
-  width: 85%;
+  width: 90%;
   padding: 20px;
   transform: translate(-50%, -50%);
   background-color: white;
   border-radius: 2%;
-  border: 1px solid red;
 }
 .top-row {
   display: flex;
@@ -266,13 +258,11 @@ span {
   width: 100%;
   font-size: 2.25vw;
   text-align: center;
-  border: 1px solid red;
 }
 .rest-imgs {
   width: 90%;
   border-radius: 90%;
   margin: 5px;
-  border: 1px solid red;
 }
 .middle-row {
   display: flex;
@@ -301,39 +291,67 @@ span {
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 1px solid red;
 }
 .footer-top {
   display: flex;
+  justify-content: space-between;
   color: white;
   background-color: #0A3055;
-  border: 1px solid red;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 1% 20%;
 }
 .footer-logo {
   color: white;
   font-family: 'IM Fell English', serif;
-  font-size: 4vw;
+  font-size: 5vw;
   font-style: italic;
-  border: 1px solid red;
+  line-height: 2;
 }
 .footer-menu {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  line-height: 2;
 }
 .footMenu {
   color: white;
 }
 .footer-bottom {
   display: flex;
+  justify-content: space-around;
   color: white;
   background-color: #0A3055;
-  border: 1px solid red;
 }
 .copyright {
-  border: 1px solid red;
+  margin: 0 5%;
+  padding-top: 3%;
 }
 .icons {
   display: flex;
-  border: 1px solid red;
+  justify-content: space-between;
+  padding: 2%;
+  padding-left: 2%;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+.fa-instagram {
+  color: white;
 }
