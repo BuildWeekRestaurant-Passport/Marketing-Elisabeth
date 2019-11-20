@@ -1,93 +1,84 @@
-.container {
-    margin: 0 auto;
-    background-color: white; //rgb(213, 215, 219);
+
+.nav-content {
+    background-color: white;
+    border: 1px solid rgb(213, 215, 219);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
-    // .nav-content {
-    //     position: relative;
-    //     text-align: center;
-    //     color: @navy;
-    // }
-    .nav-content {
+    .navigation-bar {
+        display: flex;
         background-color: white;
-        border: 1px solid rgb(213, 215, 219);
-        border-bottom-left-radius: 40px;
-        border-bottom-right-radius: 40px;
+        margin: 10px 2%;
     }
 
-        .navigation-bar {
-            display: flex;
-            background-color: white;
-            margin: 10px 2%;
+        .nav-logo {
+            border: 1px solid white;
         }
 
-            .nav-logo {
-                border: 1px solid white;
-            }
+            .logo {
+                color: @blue;
+                font-family: 'IM Fell English', serif;
+                font-size: 3vw;
+                font-style: italic;
+                padding-left: 20px;
 
-                .logo {
-                    color: @blue;
-                    font-family: 'IM Fell English', serif;
-                    font-size: 3vw;
-                    font-style: italic;
-                    padding-left: 20px;
-
-                    @media (max-width: 1000px ) {
-                        font-size: 30px;
-                    }
-
-                    @media (max-width: 500px ) {
-                        font-size: 28px;
-                    }
+                @media (max-width: 1000px ) {
+                    font-size: 30px;
                 }
 
-                    span {
-                        font-size: 6vw;
-                        font-weight: bold;
-                    }
-
-                // .logo-subtext {
-                //     color: @navy;
-                //     font-size: 1.8vw;
-                //     border: @red;
-                // }
-
-        .nav-menu {
-            font-family: 'IM Fell English', serif;
-            position: absolute;              
-            width: 40%;
-            top: 8px;
-            right: 16px;
-            padding-top: 3.5%;
-            padding-bottom: 1%;
-            text-align: right;
-        }
-
-            .navMenu {
-                font-size: 24px;
-                text-align: center;
-                margin-right: 5%;
-                //padding: 0 2%;
-                //font-weight: bold;
-                color: @blue; 
-
-                @media (max-width: 500px) {
-                    font-size: 20px;
+                @media (max-width: 500px ) {
+                    font-size: 28px;
                 }
             }
 
-                .navMenu:hover {
-                    color: white;
-                    background-color: @blue;
-                    -webkit-border-radius: 5px;
-                    -moz-border-radius: 5px;
-                    border-radius: 5px;
+                span {
+                    font-size: 6vw;
+                    font-weight: bold;
                 }
 
-                .link {
+            // .logo-subtext {
+            //     color: @navy;
+            //     font-size: 1.8vw;
+            //     border: @red;
+            // }
 
-                    @media (max-width: 1000px) {
-                        display: none;                
-                    }  
-                }
-                
+    .nav-menu {
+        font-family: 'IM Fell English', serif;
+        position: absolute;              
+        width: 40%;
+        top: 8px;
+        right: 16px;
+        padding-top: 3.5%;
+        padding-bottom: 1%;
+        text-align: right;
+    }
+
+        .navMenu {
+            font-size: 24px;
+            text-align: center;
+            margin-right: 5%;
+            //padding: 0 2%;
+            //font-weight: bold;
+            color: @blue; 
+
+            @media (max-width: 500px) {
+                font-size: 20px;
+            }
+        }
+
+            .navMenu:hover {
+                color: white;
+                background-color: @blue;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+            }
+
+            .link {
+
+                @media (max-width: 1000px) {
+                    display: none;                
+                }  
+            }
+            
