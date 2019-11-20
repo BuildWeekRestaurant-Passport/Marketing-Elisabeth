@@ -1,5 +1,5 @@
-
 .nav-content {
+    width: 100%;
     background-color: white;
     border: 1px solid rgb(213, 215, 219);
     border-bottom-left-radius: 40px;
@@ -10,6 +10,10 @@
         display: flex;
         background-color: white;
         margin: 10px 2%;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
     }
 
         .nav-logo {
@@ -52,14 +56,16 @@
         padding-top: 3.5%;
         padding-bottom: 1%;
         text-align: right;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
     }
 
         .navMenu {
             font-size: 24px;
             text-align: center;
             margin-right: 5%;
-            //padding: 0 2%;
-            //font-weight: bold;
             color: @blue; 
 
             @media (max-width: 500px) {

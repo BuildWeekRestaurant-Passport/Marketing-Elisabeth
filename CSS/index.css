@@ -134,6 +134,7 @@ a {
   text-decoration: none;
 }
 .nav-content {
+  width: 100%;
   background-color: white;
   border: 1px solid #d5d7db;
   border-bottom-left-radius: 40px;
@@ -143,6 +144,11 @@ a {
   display: flex;
   background-color: white;
   margin: 10px 2%;
+}
+@media (max-width: 500px) {
+  .navigation-bar {
+    flex-direction: column;
+  }
 }
 .nav-logo {
   border: 1px solid white;
@@ -177,6 +183,11 @@ span {
   padding-top: 3.5%;
   padding-bottom: 1%;
   text-align: right;
+}
+@media (max-width: 500px) {
+  .nav-menu {
+    flex-direction: column;
+  }
 }
 .navMenu {
   font-size: 24px;
@@ -366,12 +377,24 @@ span {
   background-color: #e5e7ec;
   text-align: center;
 }
+.team {
+  font-family: 'IM Fell English', serif;
+  font-size: 30px;
+  color: #0A3055;
+  margin: 10%;
+  padding-top: 5%;
+}
 .about-imgs {
   padding: 5%;
 }
 .about-top-row {
   display: flex;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .about-top-row {
+    flex-direction: column;
+  }
 }
 .about-content {
   font-family: 'IM Fell English', serif;
@@ -381,8 +404,9 @@ span {
   margin: 7%;
 }
 .about-images {
-  width: 55%;
-  height: 70%;
+  width: 60%;
+  height: 68%;
+  border: 1.5px solid #0A3055;
   border-radius: 45%;
 }
 .img-txt {
@@ -393,9 +417,19 @@ span {
   display: flex;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .about-middle-row {
+    flex-direction: column;
+  }
+}
 .about-bottom-row {
   display: flex;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .about-bottom-row {
+    flex-direction: column;
+  }
 }
 .TL-content {
   font-family: 'IM Fell English', serif;
@@ -405,7 +439,39 @@ span {
 .TL-image {
   width: 20%;
   height: 20%;
+  border: 1.5px solid #0A3055;
   border-radius: 45%;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contact {
+  font-family: 'IM Fell English', serif;
+  font-size: 20px;
+  color: #0A3055;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15%;
 }
 .container {
   position: relative;

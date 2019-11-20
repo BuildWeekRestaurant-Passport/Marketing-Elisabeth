@@ -3,12 +3,24 @@
    text-align: center;
 }
 
+    .team {
+        font-family: 'IM Fell English', serif;
+        font-size: 30px;
+        color: @navy;
+        margin: 10%;
+        padding-top: 5%;
+    } 
+
     .about-imgs {
         padding: 5%;
     }
         .about-top-row {
             display: flex;
             width: 100%;
+
+            @media (max-width: 500px) {
+                flex-direction: column;
+            }
         }
     
             .about-content {
@@ -20,8 +32,9 @@
             }
             
                 .about-images {
-                    width: 55%;
-                    height: 70%;
+                    width: 60%;
+                    height: 68%;
+                    border: 1.5px solid @navy;
                     border-radius: 45%;
                 }
 
@@ -33,11 +46,19 @@
         .about-middle-row {
             display: flex;
             width: 100%;
+            
+            @media (max-width: 500px) {
+                flex-direction: column;
+            }
         }
 
         .about-bottom-row {
             display: flex;
             width: 100%;
+
+            @media (max-width: 500px) {
+                flex-direction: column;
+            }
         }
 
         
@@ -51,6 +72,7 @@
             .TL-image {
                 width: 20%;
                 height: 20%;
+                border: 1.5px solid @navy;
                 border-radius: 45%;
             }
 
