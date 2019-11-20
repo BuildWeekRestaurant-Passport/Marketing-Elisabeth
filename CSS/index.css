@@ -134,7 +134,6 @@ a {
   text-decoration: none;
 }
 .nav-content {
-  width: 100%;
   background-color: white;
   border: 1px solid #d5d7db;
   border-bottom-left-radius: 40px;
@@ -144,6 +143,7 @@ a {
   display: flex;
   background-color: white;
   margin: 10px 2%;
+  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .navigation-bar {
@@ -183,11 +183,6 @@ span {
   padding-top: 3.5%;
   padding-bottom: 1%;
   text-align: right;
-}
-@media (max-width: 500px) {
-  .nav-menu {
-    flex-direction: column;
-  }
 }
 .navMenu {
   font-size: 24px;
@@ -379,17 +374,16 @@ span {
 }
 .team {
   font-family: 'IM Fell English', serif;
-  font-size: 30px;
+  font-size: 35px;
   color: #0A3055;
-  margin: 10%;
+  margin: 5% 5% 8% 5%;
   padding-top: 5%;
 }
 .about-imgs {
-  padding: 5%;
+  border: 1px solid red;
 }
 .about-top-row {
   display: flex;
-  width: 100%;
 }
 @media (max-width: 500px) {
   .about-top-row {
@@ -397,21 +391,24 @@ span {
   }
 }
 .about-content {
+  width: 100%;
   font-family: 'IM Fell English', serif;
   font-size: 20px;
   text-align: center;
-  width: 100%;
-  margin: 7%;
+  padding-bottom: 7%;
 }
 .about-images {
-  width: 60%;
-  height: 68%;
+  width: 40%;
+  height: 65%;
   border: 1.5px solid #0A3055;
   border-radius: 45%;
 }
 .img-txt {
   line-height: 1.5;
-  margin: 4%;
+  margin: 4% 4% 0% 4%;
+}
+.image-txt {
+  margin-bottom: 2%;
 }
 .about-middle-row {
   display: flex;
@@ -435,6 +432,7 @@ span {
   font-family: 'IM Fell English', serif;
   font-size: 20px;
   line-height: 1;
+  padding-bottom: 7%;
 }
 .TL-image {
   width: 20%;
