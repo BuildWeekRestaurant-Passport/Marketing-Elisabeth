@@ -365,22 +365,29 @@ span {
 .about {
   background-color: #e5e7ec;
   text-align: center;
-  border: 1px solid red;
 }
-.about-content {
-  border: 1px solid red;
+.about-imgs {
+  padding: 5%;
 }
 .about-top-row {
   display: flex;
   width: 100%;
 }
 .about-content {
+  font-family: 'IM Fell English', serif;
+  font-size: 20px;
   text-align: center;
+  width: 100%;
+  margin: 7%;
 }
-.about-imgs {
-  width: 75%;
-  height: 75%;
-  border-radius: 50%;
+.about-images {
+  width: 55%;
+  height: 70%;
+  border-radius: 45%;
+}
+.img-txt {
+  line-height: 1.5;
+  margin: 4%;
 }
 .about-middle-row {
   display: flex;
@@ -389,6 +396,16 @@ span {
 .about-bottom-row {
   display: flex;
   width: 100%;
+}
+.TL-content {
+  font-family: 'IM Fell English', serif;
+  font-size: 20px;
+  line-height: 1;
+}
+.TL-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 45%;
 }
 .container {
   position: relative;
