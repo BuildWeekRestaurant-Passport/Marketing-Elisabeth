@@ -143,12 +143,6 @@ a {
   display: flex;
   background-color: white;
   margin: 10px 2%;
-  border: 1px solid red;
-}
-@media (max-width: 500px) {
-  .navigation-bar {
-    flex-direction: column;
-  }
 }
 .nav-logo {
   border: 1px solid white;
@@ -379,9 +373,6 @@ span {
   margin: 5% 5% 8% 5%;
   padding-top: 5%;
 }
-.about-imgs {
-  border: 1px solid red;
-}
 .about-top-row {
   display: flex;
 }
@@ -439,6 +430,12 @@ span {
   height: 20%;
   border: 1.5px solid #0A3055;
   border-radius: 45%;
+}
+@media (max-width: 500px) {
+  .TL-image {
+    width: 30%;
+    height: 30%;
+  }
 }
 input[type=text],
 select,
