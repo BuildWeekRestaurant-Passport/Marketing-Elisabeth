@@ -1,10 +1,10 @@
 .about {
-   background-color: rgb(229, 231, 236);
+   background-color: @background-signUp;
    text-align: center;
 }
 
     .team {
-        font-family: 'IM Fell English', serif;
+        font-family: @font;
         font-size: 35px;
         color: @navy;
         margin: 5% 5% 8% 5%;
@@ -14,18 +14,22 @@
     
     .about-top-row {
         display: flex;
+        background-color: white;
+        border-radius: 20px;
+        margin: 5%;
+        padding: 7% 5% 5% 5%;
 
-        @media (max-width: 500px) {
+        @media @mobile {
             flex-direction: column;
         }
     }
 
         .about-content {
             width: 100%;
-            font-family: 'IM Fell English', serif;
+            font-family: @font;
             font-size: 20px;
             text-align: center;
-            padding-bottom: 7%;;
+            padding-bottom: 6%;
         }
         
             .about-images {
@@ -46,42 +50,55 @@
 
     .about-middle-row {
         display: flex;
-        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        margin: 5%;
+        padding: 7% 5% 5% 5%;
         
-        @media (max-width: 500px) {
+        @media @mobile {
             flex-direction: column;
         }
     }
 
     .about-bottom-row {
         display: flex;
-        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        margin: 5%;
+        padding: 7% 5% 5% 5%;
 
-        @media (max-width: 500px) {
+        @media @mobile {
             flex-direction: column;
         }
     }
 
     
-    .TL-content {
-        font-family: 'IM Fell English', serif;
+    .TL-row {
+        background-color: white;
+        border-radius: 20px;
+        margin: 5%;
+        padding: 7% 5% 5% 5%;
+    }
+
+        .TL- content {
+        font-family: @font;
         font-size: 20px;
         line-height: 1;
         padding-bottom: 7%;
         
-    } 
-        
-        .TL-image {
-            width: 20%;
-            height: 20%;
-            border: 1.5px solid @navy;
-            border-radius: 45%;
+        } 
+            
+            .TL-image {
+                width: 20%;
+                height: 20%;
+                border: 1.5px solid @navy;
+                border-radius: 45%;
 
-            @media (max-width: 500px) {
-                width: 30%;
-                height: 30%;
+                @media @mobile {
+                    width: 30%;
+                    height: 30%;
+                }
             }
-        }
 
         
         

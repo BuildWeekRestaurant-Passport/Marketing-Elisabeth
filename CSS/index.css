@@ -154,7 +154,7 @@ a {
   font-style: italic;
   padding-left: 20px;
 }
-@media (max-width: 1000px) {
+@media (min-width: 1000px ) and (max-width: 1500px) {
   .logo {
     font-size: 30px;
   }
@@ -210,12 +210,12 @@ span {
   border: 1px solid #a6a7a7;
   border-radius: 40px;
 }
-@media (min-width: 1000px) and (max-width: 1500px) {
+@media (min-width: 1000px ) and (max-width: 1500px) {
   .signUp-area {
     padding-bottom: 80%;
   }
 }
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 700px) and (max-width: 999px) {
   .signUp-area {
     padding-bottom: 95%;
   }
@@ -245,12 +245,12 @@ span {
   border: 1px solid #10103f;
   border-radius: 20px;
 }
-@media (min-width: 1000px) and (max-width: 1500px) {
+@media (min-width: 1000px ) and (max-width: 1500px) {
   .phrase-button {
     top: 12.5%;
   }
 }
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 700px) and (max-width: 999px) {
   .phrase-button {
     top: 16%;
   }
@@ -304,12 +304,12 @@ span {
   background-color: white;
   border-radius: 10%;
 }
-@media (min-width: 1000px) and (max-width: 1500px) {
+@media (min-width: 1000px ) and (max-width: 1500px) {
   .restaurant-imgs {
     top: 60%;
   }
 }
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 700px) and (max-width: 999px) {
   .restaurant-imgs {
     top: 59%;
   }
@@ -375,6 +375,10 @@ span {
 }
 .about-top-row {
   display: flex;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5%;
+  padding: 7% 5% 5% 5%;
 }
 @media (max-width: 500px) {
   .about-top-row {
@@ -386,7 +390,7 @@ span {
   font-family: 'IM Fell English', serif;
   font-size: 20px;
   text-align: center;
-  padding-bottom: 7%;
+  padding-bottom: 6%;
 }
 .about-images {
   width: 40%;
@@ -403,7 +407,10 @@ span {
 }
 .about-middle-row {
   display: flex;
-  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5%;
+  padding: 7% 5% 5% 5%;
 }
 @media (max-width: 500px) {
   .about-middle-row {
@@ -412,14 +419,23 @@ span {
 }
 .about-bottom-row {
   display: flex;
-  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5%;
+  padding: 7% 5% 5% 5%;
 }
 @media (max-width: 500px) {
   .about-bottom-row {
     flex-direction: column;
   }
 }
-.TL-content {
+.TL-row {
+  background-color: white;
+  border-radius: 20px;
+  margin: 5%;
+  padding: 7% 5% 5% 5%;
+}
+.TL- content {
   font-family: 'IM Fell English', serif;
   font-size: 20px;
   line-height: 1;

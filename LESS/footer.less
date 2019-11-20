@@ -17,7 +17,7 @@
             border-top-right-radius: 30px;
             padding: 1% 20%;
 
-            @media (max-width: 500px) {
+            @media @mobile {
                 flex-direction: column;
                 text-align: center;
             }
@@ -25,12 +25,12 @@
 
             .footer-logo {
                 color: white;
-                font-family: 'IM Fell English', serif;
+                font-family: @font;
                 font-size: 5vw;
                 font-style: italic;
                 line-height: 2;
 
-                @media (max-width: 500px) {
+                @media @mobile {
                     font-size: 40px;
                 }
             }
@@ -40,7 +40,7 @@
                 flex-direction: column;
                 line-height: 2;
 
-                @media (max-width: 500px) {
+                @media @mobile {
                     padding: 3%;
                 }
             }
@@ -55,7 +55,7 @@
             color: white;
             background-color: @navy;
 
-            @media (max-width: 500px) {
+            @media @mobile {
                 flex-direction: column-reverse;
                 text-align: center;
             }
@@ -65,7 +65,7 @@
                 margin: 0 5%;
                 padding-top: 3%;
 
-                @media (max-width: 500px) {
+                @media @mobile {
                     padding: 3%;
                 }
             }
@@ -76,7 +76,7 @@
                 padding: 2%;
                 padding-left: 3%;
 
-                @media (max-width: 500px) {
+                @media @mobile {
                     justify-content: space-around;
                 }
             }

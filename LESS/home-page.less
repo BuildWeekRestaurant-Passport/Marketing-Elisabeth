@@ -2,20 +2,20 @@
     position: relative;
     text-align: center;
     color: white;
-    background-color: rgb(229, 231, 236);
+    background-color: @background-signUp;
     padding-bottom: 70%;
-    border: 1px solid rgb(166, 167, 167);
+    border: 1px solid @border-signUp;
     border-radius: 40px;
 
-    @media (min-width: 1000px) and (max-width: 1500px) {
+    @media @desktop {
         padding-bottom: 80%;
     }
 
-    @media (min-width: 800px) and (max-width: 999px) {
+    @media @tablet {
         padding-bottom: 95%;
     }
 
-    @media (max-width: 500px) {
+    @media @mobile {
         padding-bottom: 20%;
     }
 }
@@ -35,23 +35,23 @@
         transform: translate(-50%, -50%);
         //font-size: 2.5vw;
         color: @navy;
-        background-color: rgba(221, 223, 224, 0.7);
+        background-color: @background-phrase;
         //opacity: 80%;
         line-height: 2;
         margin: 5% 0;
         padding: 2%;
-        border: 1px solid rgb(16, 16, 63);
+        border: 1px solid @border-phrase;
         border-radius: 20px;
 
-        @media (min-width: 1000px) and (max-width: 1500px) {
+        @media @desktop {
             top: 12.5%;
         }
 
-        @media (min-width: 800px) and (max-width: 999px) {
+        @media @tablet {
             top: 16%;
         }
 
-        @media (max-width: 500px) {
+        @media @mobile {
             top: 76%;
             width: 95%;
             border: none;
@@ -71,7 +71,7 @@
             font-size: 30px;
             font-weight: 550;
 
-            @media (max-width: 500px) {
+            @media @mobile {
                 font-size: 24px;
             }
         }
@@ -83,7 +83,7 @@
             height: 50px;
             margin: 10px;
             border-radius: 10px;
-            border: 1px solid rgb(23, 35, 75);
+            border: 1px solid @border-button;
         }
 
             .button:hover {
@@ -106,15 +106,15 @@
     background-color: white;
     border-radius: 10%;
 
-    @media (min-width: 1000px) and (max-width: 1500px) {
+    @media @desktop {
         top: 60%;
     }
 
-    @media (min-width: 800px) and (max-width: 999px) {
+    @media @tablet {
         top: 59%;
     }
 
-    @media (max-width: 500px) {
+    @media @mobile {
         display: none;
     }
 }
@@ -131,18 +131,18 @@
             .rest-imgs {
                 width: 90%;
                 height: 80%;
-                background-color: rgb(204, 160, 102);
+                background-color: @rest-imgs;
                 opacity: 90%;
                 border-radius: 90%;
                 margin: 5px;
             }
 
                 .rest-imgs:hover {
-                    color: rgb(204, 160, 102);
+                    color: @rest-imgs;
                 }
 
             .img-text {
-                font-family: 'IM Fell English', serif;
+                font-family: @font;
                 color: @navy;
             }
 
@@ -151,7 +151,7 @@
     }
 
     .new-phrase {
-        font-family: 'IM Fell English', serif;
+        font-family: @font;
         font-size: 3.5vw;
         color: @blue;
         border-top: 1.5px solid black;
