@@ -170,6 +170,9 @@ a {
     font-size: 28px;
   }
 }
+.logo:hover {
+  color: red;
+}
 span {
   font-size: 6vw;
   font-weight: bold;
@@ -196,8 +199,7 @@ span {
   }
 }
 .navMenu:hover {
-  color: white;
-  background-color: #406098;
+  color: red;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -432,6 +434,12 @@ span {
 .image-txt {
   margin-bottom: 2%;
 }
+.github {
+  color: #0A3055;
+}
+.github:hover {
+  color: red;
+}
 .about-middle-row {
   display: flex;
   background-color: white;
@@ -546,6 +554,12 @@ input[type=submit]:hover {
     font-size: 40px;
   }
 }
+.ft-logo {
+  color: white;
+}
+.ft-logo:hover {
+  color: red;
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
@@ -558,6 +572,9 @@ input[type=submit]:hover {
 }
 .footMenu {
   color: white;
+}
+.footMenu:hover {
+  color: red;
 }
 .footer-bottom {
   display: flex;
@@ -605,10 +622,19 @@ input[type=submit]:hover {
 .fa-facebook {
   color: white;
 }
+.fa-facebook:hover {
+  color: red;
+}
 /* Twitter */
 .fa-twitter {
   color: white;
 }
+.fa-twitter:hover {
+  color: red;
+}
 .fa-instagram {
   color: white;
+}
+.fa-instagram:hover {
+  color: red;
 }
