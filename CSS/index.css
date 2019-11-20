@@ -142,10 +142,11 @@ a {
 .navigation-bar {
   display: flex;
   background-color: white;
+  border-radius: 10px;
   margin: 10px 2%;
 }
 .nav-logo {
-  border: 1px solid white;
+  border-radius: 8px;
 }
 .logo {
   color: #406098;
