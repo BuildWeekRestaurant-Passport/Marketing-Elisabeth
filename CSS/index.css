@@ -160,6 +160,11 @@ a {
     font-size: 30px;
   }
 }
+@media (min-width: 580px) and (max-width: 699px) {
+  .logo {
+    font-size: 35px;
+  }
+}
 @media (max-width: 500px) {
   .logo {
     font-size: 28px;
@@ -216,6 +221,11 @@ span {
     padding-bottom: 80%;
   }
 }
+@media (min-width: 580px) and (max-width: 699px) {
+  .signUp-area {
+    padding-bottom: 120%;
+  }
+}
 @media (min-width: 700px) and (max-width: 999px) {
   .signUp-area {
     padding-bottom: 95%;
@@ -249,6 +259,12 @@ span {
 @media (min-width: 1000px ) and (max-width: 1500px) {
   .phrase-button {
     top: 12.5%;
+  }
+}
+@media (min-width: 580px) and (max-width: 699px) {
+  .phrase-button {
+    top: 15%;
+    width: 60%;
   }
 }
 @media (min-width: 700px) and (max-width: 999px) {
@@ -308,6 +324,11 @@ span {
 @media (min-width: 1000px ) and (max-width: 1500px) {
   .restaurant-imgs {
     top: 60%;
+  }
+}
+@media (min-width: 580px) and (max-width: 699px) {
+  .restaurant-imgs {
+    top: 59%;
   }
 }
 @media (min-width: 700px) and (max-width: 999px) {
