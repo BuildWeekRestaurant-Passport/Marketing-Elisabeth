@@ -420,6 +420,11 @@ span {
   border: 1.5px solid #0A3055;
   border-radius: 45%;
 }
+@media (min-width: 580px) and (max-width: 699px) {
+  .about-images {
+    height: 55%;
+  }
+}
 .img-txt {
   line-height: 1.5;
   margin: 4% 4% 0% 4%;
