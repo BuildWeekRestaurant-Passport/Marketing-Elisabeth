@@ -220,17 +220,17 @@ span {
 }
 @media (min-width: 1000px ) and (max-width: 1500px) {
   .signUp-area {
-    padding-bottom: 80%;
+    padding-bottom: 88%;
   }
 }
 @media (min-width: 580px) and (max-width: 699px) {
   .signUp-area {
-    padding-bottom: 120%;
+    padding-bottom: 140%;
   }
 }
 @media (min-width: 700px) and (max-width: 999px) {
   .signUp-area {
-    padding-bottom: 95%;
+    padding-bottom: 120%;
   }
 }
 @media (max-width: 500px) {
@@ -330,7 +330,7 @@ span {
 }
 @media (min-width: 580px) and (max-width: 699px) {
   .restaurant-imgs {
-    top: 59%;
+    top: 57%;
   }
 }
 @media (min-width: 700px) and (max-width: 999px) {
@@ -385,6 +385,9 @@ span {
 .row-img {
   margin-top: 30px;
   margin-bottom: 70px;
+}
+.description {
+  text-align: center;
 }
 .about {
   background-color: #e5e7ec;
